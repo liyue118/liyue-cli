@@ -1,0 +1,22 @@
+{
+  "name": "@liyue.com/command",
+  "version": "0.0.0",
+  "description": "common command class",
+  "author": "yue.li <yue.li@77hub.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/commander.test.js"
+  },
+  "dependencies": {
+  },
+  "type": "module"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "@liyue.com/createEntityMkdir",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "yue.li <yue.li@77hub.com>",
+  "homepage": "https://github.com/liyue118/root#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npm.taobao.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liyue118/root.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/createEntityMkdir.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/liyue118/root/issues"
+  },
+  "dependencies": {
+    "@liyue.com/command": "^0.0.0",
+    "@liyue.com/utils": "^0.0.0",
+    "dirname-filename-esm": "^1.1.1",
+    "ejs": "^3.1.9",
+    "fs-extra": "^11.1.1",
+    "glob": "8.0.3",
+    "path-exists": "^5.0.0",
+    "prettier": "^2.8.8"
+  },
+  "type": "module"
+}

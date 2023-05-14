@@ -1,0 +1,25 @@
+{
+  "name": "@liyue.com/install",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "yue.li <yue.li@77hub.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/install.test.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@liyue.com/command": "^0.0.0",
+    "@liyue.com/utils": "^0.0.0",
+    "ora": "^6.3.0"
+  }
+}
