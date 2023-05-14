@@ -1,6 +1,12 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "@liyue.com/liyue-cli",
+  "private": false,
+  "version": "0.1.0",
+  "author": "yue.li",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "workspaces": [
     "packages/*"
   ],
